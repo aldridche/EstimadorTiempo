@@ -1,0 +1,115 @@
+span.circulo {
+  background: red;
+  border-radius: 100px;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 120px;
+  text-align: center;
+  width: 120px;
+  font-size: 1px;
+}
+.marcarTodo{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.inpu1{
+  width: 32%;
+  height: 300px;
+  float: left;
+}
+.inpu2{
+  width: 65%;
+  margin-right: 3%;
+  height: 300px;
+  float: right;
+}
+.inpu1 p{
+  padding-bottom: 30px;
+  text-align: left;
+}
+.inpu2 input{
+  margin-bottom: 45px;
+  text-align: left;
+  width: 100%;
+}
+.inpu2 select{
+  width: 100%;
+  text-align: left;
+}
+.inpu3{
+  width: 69%;
+  height: 380px;
+  float: left;
+}
+.inpu4{
+  width: 29%;
+  height: 380px;
+  float: right;
+  padding-left: 5px;
+}
+.alertaProyecto {
+  font-size: 20px;
+}
+
+.barMenu {
+  background: #252830;
+  color: #ffffff;
+  height: 70px;
+}
+
+.inpBut {
+  background: #252830;
+  color: #ffffff;
+}
+
+.texto {
+  color: #ffffff;
+  margin: 10px;
+}
+
+/* Structure */
+table {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 10px;
+  background-color: #252830;
+  font-weight: 20%;
+  font-style: normal;
+  font: bold;
+}
+
+table th{
+  color: #ffffff;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+mat-label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid #39c;
+}
+
+input:hover{
+  transition: 500ms;
+  border-radius: 5px;
+  border: 1px solid #39c;
+  box-shadow: blue;
+}
+
+.mi-tabla{
+  display: block;
+  margin-top: 20px;
+  border-top: 20px;
+}
